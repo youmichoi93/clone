@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+section {
+    padding: 0 10%;
+}
+
+.nav{
+    background: #fff;
+    height: 70px;
+    width: 100%;
+}
+
+.content-box{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+    margin-left: -15px;
+    
+}
+
+.content-box .logo{
+    margin-right: 23px;
+}
+
+.content-box .content{
+    margin-left: 48px;
+
+}
+
+.right-box{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: 210px;
+}
+
+.right-content {
+    width: 72px;
+    height: 30px;
+    margin-left: -18px;
+    line-height: 60px;
+    border-radius: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+#map {
+    background: #A2A2A2;
+}
+
+#buying{
+    background: #00CD00;
+}
+
+#as{
+    background: rgb(16, 104, 164);
+}
+
+.banner{
+    background: #9CB9C1;
+    min-height: 690px;
+}
+
+.banner .baner-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner .baner-box .tex{
+    color: #fff;
+}
+
+.banner .baner-box .img{
+    padding-top: 50px;
+    max-width: 100%;
+    margin-right: 90px;
+}
+
+.banner .baner-box .img img{
+   width: 120%;
+}
+
+.banner .baner-box .tex .tex-content{
+    font-size: 4.5rem;
+    line-height: 3.8rem;
+    letter-spacing: -5px;
+    padding: 6% 0;
+    font-weight: 500;
+}
+
+.banner .baner-box .tex .title{
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: -0.8px;
+    line-height: 1.6;
+}
+.banner .baner-box .tex .sec-title{
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: -0.8px;
+    line-height: 1.6;
+    margin-bottom: 120px;
+}
+
+.banner .baner-box .tex h3{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 13px;
+}
+
+.banner .baner-box .tex a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.banner .baner-box .tex a::before{
+    content: "";
+    background: url(./visual_arr.png);
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+
+}
